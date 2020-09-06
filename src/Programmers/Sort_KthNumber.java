@@ -27,6 +27,29 @@ public class Sort_KthNumber {
 		}
 		
 		return answer;
+		
+		/* 첫 번째로 낸 답
+			int[] answer = new int[commands.length];
+			
+			int first = 0;
+			int second = 0;
+			int third = 0;
+			
+			for(int i=0; i<commands.length; i++) {
+					
+				first = commands[i][0];
+				second = commands[i][1];
+				third = commands[i][2];
+				
+				int[] temp = new int[second-first+1];
+				temp = Arrays.copyOfRange(array, first-1, second);
+				Arrays.sort(temp);
+			
+				answer[i] = temp[third-1];
+				
+			}		
+			return answer;
+		*/
 	}
 	
 }
