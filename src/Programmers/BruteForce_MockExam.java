@@ -1,4 +1,4 @@
-package Programmers_KitForHighScore;
+package Programmers;
 
 /* 	프로그래머스
 	코딩테스트 고득점 Kit
@@ -10,7 +10,7 @@ package Programmers_KitForHighScore;
 		1. 
 		  */
 
-public class BruteForce01 {
+public class BruteForce_MockExam {
 
 	//대충 30분은 씀... 1시간 30분 더 쓰기
 	public int[] solution(int[] answers) {

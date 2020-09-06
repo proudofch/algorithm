@@ -1,4 +1,4 @@
-package Programmers_KitForHighScore;
+package Programmers;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ import java.util.Arrays;
 		2. 그래서 key, value로 모두 파라미터로 받은 배열값을 주려 했으나..? 이후 노답 (좀더 생각했다면 value로 숫자를 줄 수 있었을까?)
 		3. 구글링하여 아래 답을 대충 찾았으나 equals 대신 비교연산자 써서 오류 발생  */
 	
-public class Hash01 {
+public class Hash_Unfinished {
 
 	public String solution(String[] participant, String[] completion) {
 

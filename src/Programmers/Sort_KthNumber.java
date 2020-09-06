@@ -1,4 +1,4 @@
-package Programmers_KitForHighScore;
+package Programmers;
 
 import java.util.Arrays;
 
@@ -10,9 +10,9 @@ import java.util.Arrays;
 	for문 밖에서 answer를 만들어야 하는데(안에서 만들면 생성 반복, 누적값 적용 안될 듯)
 	그 부분에서 헤맨 거 빼곤 괜찮았다.  */
 
-public class Sort01 {
+public class Sort_KthNumber {
 	
-	public static int[] solution(int[] array, int[][] commands) {
+	public int[] solution(int[] array, int[][] commands) {
 		
 		int[] answer = new int[commands.length];
 		
