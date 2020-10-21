@@ -2,7 +2,7 @@ package Backjoon_Level02;
 
 import java.util.Scanner;
 
-public class L02_9498 {
+public class L02_09498 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int score = scan.nextInt();

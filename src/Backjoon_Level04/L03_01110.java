@@ -11,7 +11,7 @@ import java.io.OutputStreamWriter;
 	몫과 나머지를 활용하자.	*/
 
 
-public class L03_1110 {
+public class L03_01110 {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

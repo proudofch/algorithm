@@ -2,7 +2,7 @@ package Backjoon_Level01;
 
 import java.util.Scanner;
 
-public class L11_2588 {
+public class L11_02588 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);

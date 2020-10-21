@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class L10_2439 {
+public class L09_02438 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,12 +15,8 @@ public class L10_2439 {
 		int n = Integer.parseInt(br.readLine());
 		
 		for(int i=1; i<=n; i++) {
-			for(int j=n; j>0; j--) {
-				if(i < j) {
-					bw.write(" ");
-				} else {
-					bw.write("*");
-				}
+			for(int j=1; j<=i; j++) {
+				bw.write("*");
 			}
 			bw.write("\n");
 		}

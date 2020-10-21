@@ -2,7 +2,7 @@ package Backjoon_Level02;
 
 import java.util.Scanner;
 
-public class L03_2753 {
+public class L03_02753 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int year = scan.nextInt();

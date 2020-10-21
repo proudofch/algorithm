@@ -2,7 +2,7 @@ package Backjoon_Level01;
 
 import java.util.Scanner;
 
-public class L05_1000 {
+public class L05_01000 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String[] input = scan.nextLine().split(" ");
