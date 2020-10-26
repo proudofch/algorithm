@@ -21,8 +21,8 @@ class Base3 {
 			array.add(n%3);
 			n /= 3;
 		}
-        
-        double answer = 0;
+
+		double answer = 0;
         int temp = 1;
         
         for(int i=0; i<array.size(); i++) {
@@ -50,4 +50,20 @@ public class Monthly_S1_Base3 {
 		System.out.println(b3.solution(3));
 		
 	}
+	
+	
+	/*	참고	*/
+
+	/*	썬의 3진법 만드는 재귀함수	*/
+	private static String rTernary(int n) {
+		if(n > 0 && n < 3) {
+			return Integer.toString(n);
+		}
+		return Integer.toString(n % 3) + rTernary(n / 3);
+		// 리턴값의 앞,뒤항을 바꾸면 오름차순<->내림차순
+	}
+	
+	// Integer.toString(n, 3); // n을 3진법으로 바꾼다.(..)
+	// int k = temp.charAt(i) - '0'; // 0을 빼면 해당 char의 숫자값을 알 수 있다. int casting도 가능
+	
 }

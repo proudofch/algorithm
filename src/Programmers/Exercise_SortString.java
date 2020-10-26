@@ -18,14 +18,12 @@ class Sort_Solution {
 	/*	다른 사람 풀이 1	*/
 	public String[] solution(String[] strings, int n) {
         
-    	Arrays.sort(strings); // 일단 사전 순 정렬
+		Arrays.sort(strings); // 일단 사전 순 정렬
 		Arrays.sort(strings, new Comparator<String>() { // Comparator로 재정렬
 			@Override
 			public int compare(String o1, String o2) {
-				char c1 = o1.charAt(n);
-				System.out.println("c1="+c1);
+				char c1 = o1.charAt(n); 
 				char c2 = o2.charAt(n);
-				System.out.println("c2="+c2);
 				return c1 - c2; // 여기서 음수,0=그대로 / 양수=자리바꿈
 			}
 		});
