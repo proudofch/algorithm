@@ -1,4 +1,4 @@
-package Backjoon_Group_Basic01;
+package BOJ_Group_Basic01;
 
 import java.util.Scanner;
 

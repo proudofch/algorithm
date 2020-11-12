@@ -1,4 +1,4 @@
-package Backjoon_Level02;
+package BOJ_Level02;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Backjoon_Level05;
+package BOJ_Level05;
 
 import java.io.BufferedReader;
 import java.io.IOException;

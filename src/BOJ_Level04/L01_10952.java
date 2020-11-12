@@ -1,4 +1,4 @@
-package Backjoon_Level04;
+package BOJ_Level04;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
