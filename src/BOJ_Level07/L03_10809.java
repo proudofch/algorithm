@@ -27,6 +27,12 @@ public class L03_10809 {
 			System.out.print(i+" ");
 		}
 		
+		/*  다른 풀이: 
+			for문을 알파벳 개수만큼 돌면서 입력받은 String.indexOf(i+97)을 StringBuilder에 append한다.
+			입력이 "baekjoon"일 때, 첫 번째 append값은 'a'의 index, 즉 1이다.
+			i+97은 char로 자동 형변환되는 듯하다.
+			그러니 이 풀이는 a~z를 순서대로 훑으면서 해당 알파벳이 존재하면 그 알파벳의 인덱스값을 append하는 것이다.  */
+		
 		br.close();
 		
 	}
