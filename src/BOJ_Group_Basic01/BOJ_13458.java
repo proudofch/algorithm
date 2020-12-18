@@ -22,7 +22,7 @@ public class BOJ_13458 {
 			list.add(Integer.parseInt(st.nextToken()));
 		}
 		
-		int count = 0;
+		long count = 0; // 시험장이 백만 개고 각 시험장마다 백만 명의 감독관이 필요하다면 최소 인원은 1조 명. 그래서 int면 오버플로우 발생
 		
 		st = new StringTokenizer(br.readLine());
 		int main = Integer.parseInt(st.nextToken());
