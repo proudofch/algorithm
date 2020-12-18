@@ -18,6 +18,7 @@ public class BOJ_13458 {
 		
 		st = new StringTokenizer(br.readLine());
 		
+		// StringTokenizer를 두 개 쓰면 굳이 아래와 같이 ArrayList를 쓸 필요가 없다.
 		for(int i=0; i<n; i++) {
 			list.add(Integer.parseInt(st.nextToken()));
 		}
@@ -34,6 +35,7 @@ public class BOJ_13458 {
 			int temp = people - main;
 			count++;
 			
+			// temp<=0일 때, temp%sub==0일 때와 아닐 때를 구분하면 굳이 while문을 쓰지 않아도 된다.
 			if(temp > 0) {
 				while(temp > 0) {
 					if(temp < sub) {
