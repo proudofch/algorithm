@@ -1,4 +1,4 @@
-package BOJ_Level08;
+package BOJ_Level08_Math1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
