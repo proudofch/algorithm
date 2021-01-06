@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 // 2차원배열은 떠올리지도 못했다..
 
-public class L07_02775 {
+public class L06_02775 {
 	public static void main(String[] args) {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
