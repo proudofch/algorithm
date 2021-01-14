@@ -9,19 +9,14 @@ public class BOJ_07567 {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input = br.readLine();
-		int count = 0;
+		int count = 10;
 		
 		for(int i = 0; i < input.length(); i++) {
-			if(i == 0) {
-				count += 10;
-				continue;
-			} else {
-				if(i < input.length() - 1) {
-					if(input.charAt(i) == '(' && input.charAt(i+1) == '(') {
-						count += 5;
-					} else {
-						count += 10;
-					}
+			if(i < input.length() - 1) {
+				if(input.charAt(i) == input.charAt(i+1)) {
+					count += 5;
+				} else {
+					count += 10;
 				}
 			}
 		}
