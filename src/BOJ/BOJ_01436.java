@@ -14,7 +14,7 @@ public class BOJ_01436 {
 		int N = Integer.parseInt(br.readLine());
 		br.close();
 		
-		int num = 0;
+		int num = 665; // 0에서 665로 변경하면 8ms 줄어든다. ^^;
 		while(N > 0) { // N이 0이 되면 종료. 666이 포함된 숫자를 N개까지 다 찾았다는 뜻
 			num++;
 			if(String.valueOf(num).contains("666")) {
